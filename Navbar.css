@@ -14,7 +14,7 @@ nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  background: #dbdbdb6c;
+  background: #ffffff6c;
   backdrop-filter: blur(1px);
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 0 10px rgba(99, 99, 99, 0.5);
@@ -24,7 +24,7 @@ nav{
 .wrapper {
     display: flex;
     align-items: center;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(0px);
 }
 
 nav .wrapper{
@@ -37,7 +37,7 @@ nav .wrapper{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(70px);
   }
 
 .wrapper .logo a{
@@ -59,7 +59,7 @@ nav .wrapper{
   list-style: none;
 }
 .nav-links li a{
-  color: #acacac98;
+  color: #13000098;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -170,7 +170,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background: #0080ff;
     display: block;
     padding: 50px 10px;
     line-height: 50px;

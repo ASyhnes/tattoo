@@ -32,14 +32,15 @@
   animation-delay: 1s;
   transform: scale(1.5); 
   background-color: rgba(167, 0, 0, 0.623);
+  backdrop-filter: blur(2px);
   border: 0.15em solid ;
-  border-color: #ffd6d6b0;
+  border-color: #1a1a1ab0;
   border-radius: 0.45em;
   box-shadow:
       0 0 8px #250000f6,
-      inset 0 0 8px #ff1e00,
+      inset 0 0 8px #1b1b1b,
       0 0 16px #ff1e00,
-      inset 0 0 16px #ebd1e9b2,
+      inset 0 0 30px #ffffffb2,
       0 0 32px #b10303e1,
       inset 0 0 32px #ff8c70;
 

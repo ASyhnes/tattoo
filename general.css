@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0%;
     background-image: url("img/background_a.png") ; 
-    background-size: 70% ;
+    background-size: 65% ;
     background-attachment: fixed;
     background-position: left center;
     background-repeat: no-repeat;
@@ -24,6 +24,15 @@ body {
     background-color: rgba(114, 114, 114, 0.281);
     backdrop-filter: blur(1px);
     width: 50%;
+}
+
+.event {
+    margin: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(114, 114, 114, 0.281);
+    backdrop-filter: blur(1px);
+    width: 100%;
 }
   
 a {

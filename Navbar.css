@@ -15,7 +15,7 @@ nav{
   z-index: 99;
   width: 100%;
   background: #ffffff6c;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(5px);
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 0 10px rgba(99, 99, 99, 0.5);
 }
@@ -24,7 +24,7 @@ nav{
 .wrapper {
     display: flex;
     align-items: center;
-    backdrop-filter: blur(0px);
+   
 }
 
 nav .wrapper{
@@ -37,7 +37,7 @@ nav .wrapper{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    backdrop-filter: blur(70px);
+   
   }
 
 .wrapper .logo a{

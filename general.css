@@ -15,8 +15,7 @@ body {
 
 .lore-container {
     display: flex;
-    justify-content: flex-end; /* Aligner à droite */
-}
+    justify-content: flex-end; 
 
 .lore {
     margin: 10%;

@@ -323,7 +323,9 @@
   margin-bottom: 100px;
   font-size: 2vw;
   white-space: nowrap; /* Empêche le texte de se répartir sur plusieurs lignes */
-  overflow: hidden
+  overflow: hidden;
+  height: 2em; 
+  vertical-align: middle;
   
 }
 
@@ -335,3 +337,8 @@ footer {
 }
 
 
+.glowing-txt,
+.faulty-letter,
+.glowing-icn {
+  vertical-align: middle;
+}

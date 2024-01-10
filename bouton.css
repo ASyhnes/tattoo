@@ -321,24 +321,7 @@
   display: flex-box;
   margin: 50px;
   margin-bottom: 100px;
-  font-size: 2vw;
-  white-space: nowrap; /* Empêche le texte de se répartir sur plusieurs lignes */
-  overflow: hidden;
-  height: 2em; 
-  vertical-align: middle;
   
 }
 
-footer {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  flex-wrap: nowrap; 
-}
 
-
-.glowing-txt,
-.faulty-letter,
-.glowing-icn {
-  vertical-align: middle;
-}

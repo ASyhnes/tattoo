@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 :root {
-  --glow-color: hsla(0, 0%, 0%, 0.856);
+  --glow-color: hsl(0, 0%, 14%);
 }
 
 *,
@@ -36,7 +36,12 @@
   animation: border-flicker 2s linear infinite;
 }
 
-
+.glowing-icn {
+  width: 1em; /* Réglez la largeur de l'image pour correspondre à la taille de la lettre "F" */
+  height: 1em; /* Réglez la hauteur de l'image pour correspondre à la taille de la lettre "F" */
+  margin-left: 0.2em; /* Réglez la marge à votre convenance pour espacer l'image du texte */
+  vertical-align: middle; /* Pour aligner l'image verticalement au centre avec le texte */
+}
 
 
 
@@ -90,13 +95,12 @@
   animation: none;
 }
 
-.glowing-btn:hover .glowing-txt {
+.glowing-btn:hover .glowing-txt, .faulty-letter {
   animation: none;
 }
 
 .glowing-btn:hover .faulty-letter {
   animation: none;
-  text-shadow: none;
   opacity: 1;
 }
 

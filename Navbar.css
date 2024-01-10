@@ -17,7 +17,7 @@ nav{
   background: #ffffff6c;
   backdrop-filter: blur(5px);
   font-family: 'Roboto', sans-serif;
-  box-shadow: 0 0 10px rgba(99, 99, 99, 0.5);
+  box-shadow: 0 0 10px rgba(75, 75, 75, 0.295);
 }
 
 
@@ -29,7 +29,7 @@ nav{
 
 nav .wrapper{
     position: relative;
-    max-width: 1300px;
+    
     padding: 0px 30px;
     height: 70px;
     line-height: 70px;

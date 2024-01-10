@@ -19,7 +19,8 @@ body {
 }
 
 .lore {
-    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(114, 114, 114, 0.281);
@@ -44,4 +45,9 @@ body {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0);
+}
+
+footer {
+    background-color: rgba(0, 255, 255, 0);
+    z-index: 99;
 }

@@ -14,81 +14,9 @@
 <body>
    
  
-    <nav>
-        <!-- légende: /.mot./ egal lien non défini -->
-          <div class="wrapper">
-            <div class="logo"><img src="img/dos_Mini.png" alt=""></a></div>
-            <input type="radio" name="slider" id="menu-btn">
-            <input type="radio" name="slider" id="close-btn">
-            <ul class="nav-links">
-              <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-              <li><a href="dex.html">Home</a></li>
-              <li>
-                <a href="#" class="desktop-item">Shop</a>
-                <input type="checkbox" id="showDrop">
-                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-                <ul class="drop-menu">
-                  <li><a href="#">Vetements</a></li>  
-                  <li><a href="#">Illustration</a></li>
-                  <li><a href="#">gravure sur bois</a></li>
-                  <li><a href="#">...</a></li>
-                </ul>
-              <li>
-                <a href="#" class="desktop-item">RDV</a>
-                <input type="checkbox" id="showDrop">
-                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-                <ul class="drop-menu">
-                  <li><a href="#">...</a></li>  
-                  <li><a href="#">...</a></li>
-                  <li><a href="#">...</a></li>
-                  <li><a href="#">...</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="desktop-item">photo</a>
-                <input type="checkbox" id="showMega">
-                <label for="showMega" class="mobile-item">...</label>
-                <div class="mega-box">
-                  <div class="content">
-                    <div class="row">
-                      <img src="img/goldsansfond2.png" alt="">
-                    </div>
-                    <div class="row">
-                      <header>...</header>
-                      <ul class="mega-links">
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>...</header>
-                      <ul class="mega-links">
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <header>...</header>
-                      <ul class="mega-links">
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                        <li><a href="#">...</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li><a href="#">News</a></li>
-            </ul>
-            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-            <div href="#" class="titre">David Chardon</div>
-          </div>
-    </nav>
+  <?php
+  require_once(__DIR__ . '/firstnavbar.php');
+  ?>
 
     <header>
     </header>
@@ -123,10 +51,10 @@
     <div class="dexcontainer">
       <div class="dex">
             <!-- More cards following the same pattern -->
-            <div class="card"><a href="thistleskull.html"><img src="img/Flashs/Skull Chardon.jpg" alt="Thistle Skull"></a><p>Thistle Skull</p><span class="undispo"><h3>unavailable</h3></span>but Clic for More</div>
-            <div class="card2"><a href="thebridge.html"><img src="img/Flashs/B_N Bridge.jpg" alt="The Bridge"></a><p>The Bridge</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
-            <div class="card2"><a href="freedm_deamon.html"><img src="img/Flashs/B_N Demon of freedom.jpg" alt="Freedom Demon"></a><p>Freedom Demon</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
-            <div class="card2"><a href="secret.html"><img src="img/Flashs/B_N secret of life.jpg" alt="Secret of life"></a><p>Secret of life</p><span class="dispo">available</span>Clic for More</div>
+            <div class="card"><a href="thistleskull.php"><img src="img/Flashs/Skull Chardon.jpg" alt="Thistle Skull"></a><p>Thistle Skull</p><span class="undispo"><h3>unavailable</h3></span>but Clic for More</div>
+            <div class="card2"><a href="thebridge.php"><img src="img/Flashs/B_N Bridge.jpg" alt="The Bridge"></a><p>The Bridge</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
+            <div class="card2"><a href="freedm_deamon.php"><img src="img/Flashs/B_N Demon of freedom.jpg" alt="Freedom Demon"></a><p>Freedom Demon</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
+            <div class="card2"><a href="secret.php"><img src="img/Flashs/B_N secret of life.jpg" alt="Secret of life"></a><p>Secret of life</p><span class="dispo">available</span>Clic for More</div>
             <div class="card2"><a href=".html"><img src="img/Flashs" alt=""></a><p>t</p><span class="dispo">available</span>Clic for More</div>
             <div class="card2"><a href=".html"><img src="img/Flashs" alt=""></a><p>t</p><span class="dispo">available</span>Clic for More</div>
             <div class="card2"><a href=".html"><img src="img/Flashs" alt=""></a><p>t</p><span class="dispo">available</span>Clic for More</div>
@@ -192,10 +120,8 @@
 
 </body>
 
-<footer>
-  <a href="#flashs">
-  <button class='glowing-btn'><span class='glowing-txt'>F<span class='faulty-letter'></span>la<span class='faulty-letter'>shs</span></span></button></a>
-  <a href="#about"><button class='glowing-btn'><span class='glowing-txt'>A<span class='faulty-letter'>b</span><span class='faulty-letter'>t M</span><span class='faulty-letter'>e</span></span></button></a>
-  <a href="#events"><button class='glowing-btn'><span class='glowing-txt'>E<span class='faulty-letter'>v</span><span class='faulty-letter'>nt</span><span class='faulty-letter'>s</span></span></button></a>
-</footer>
+<?php
+  require_once(__DIR__ . '/firstfooter.php');
+  ?>
+
 </html>

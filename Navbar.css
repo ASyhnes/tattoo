@@ -29,7 +29,6 @@ nav{
 
 nav .wrapper{
     position: relative;
-    
     padding: 0px 30px;
     height: 70px;
     line-height: 70px;
@@ -59,7 +58,7 @@ nav .wrapper{
   list-style: none;
 }
 .nav-links li a{
-  color: #13000098;
+  color: #00000098;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -69,7 +68,9 @@ nav .wrapper{
   
 }
 .nav-links li a:hover{
-  background: #790000a1;
+  background: #f0f0f052;
+  box-shadow: 0 0 10px rgba(75, 75, 75, 0.295);
+  transition: all 0.5s ease;
   
 }
 .nav-links .mobile-item{

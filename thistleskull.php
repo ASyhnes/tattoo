@@ -35,6 +35,8 @@
   </div>
 </div>
 
+Note: prvoir une section "Déja pris par XXXX"
+
 <?php
   require_once(__DIR__ . '/footer.php');
 ?>

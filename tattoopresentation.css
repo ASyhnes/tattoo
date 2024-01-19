@@ -22,3 +22,17 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     overflow: auto;
 }
+
+.flash-container {
+    max-height: 90vh; /* 90% de la hauteur de la fenêtre de visualisation */
+    display: flex;
+    align-items: center; /* Centre l'image verticalement */
+    justify-content: center; /* Centre l'image horizontalement */
+}
+
+.image-container img {
+    max-height: 100%; /* S'assure que l'image ne dépasse pas la hauteur de son conteneur */
+    width: auto; /* Conserve les proportions de l'image */
+}
+
+  

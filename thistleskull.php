@@ -17,6 +17,10 @@
     require_once(__DIR__ . '/navbar.php');
     ?>
 
+<div class="flash-box">
+    <img src="img/Flashs/Skull Chardon.jpg" alt="Image"/>
+</div>
+
     <div class="container-infobox">
         <div class="info-box">
             <h2>Thistel Skull</h2>
@@ -34,7 +38,7 @@
             <p>A venir: slide variation pri en fonction de la taille</p>
             <div class="slidecontainer">
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                <p>Valeur : <span id="demo"></span></p>
+                <p>Taille : <span id="demo"></span></p>
             </div>
             <p>Note: prvoir une section "Déja pris par X....."</P>
         </div>

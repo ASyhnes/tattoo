@@ -3,6 +3,21 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-image: url("img/Flashs/Skull\ Chardon.jpg") ; 
+    background-size: 120% ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Raleway", sans-serif;
+}
+
 .fullscreen-iframe {
     width: 100%;
     height: 100%;
@@ -10,29 +25,57 @@ html, body {
 }
 
 .info-box {
-    position: absolute; 
-    top: 50%; 
-    transform: translateY(-20%);
+    position: bottom; 
     left: 20px; 
     background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 15px; 
     padding: 15px; 
     width: 300px;
-    padding-bottom: 10%; 
+    padding-bottom: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     overflow: auto;
 }
 
-.flash-container {
-    max-height: 90vh; /* 90% de la hauteur de la fenêtre de visualisation */
-    display: flex;
-    align-items: center; /* Centre l'image verticalement */
-    justify-content: center; /* Centre l'image horizontalement */
-}
 
-.image-container img {
-    max-height: 100%; /* S'assure que l'image ne dépasse pas la hauteur de son conteneur */
-    width: auto; /* Conserve les proportions de l'image */
-}
 
+  
+/*sliders bouton*/
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 10px; 
+    background: #94949483; 
+    border-radius: 10px;
+    outline: none; 
+   
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; 
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; 
+    height: 25px;
+    background: #000000;
+    cursor: pointer; 
+    border-radius: 50%; 
+  
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: #000000; 
+    cursor: pointer; 
+  }
   

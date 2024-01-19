@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="dex.css">
+
     <link rel="stylesheet" href="bouton.css">
     <link rel="stylesheet" href="tattoopresentation.css">
 </head>
@@ -40,9 +40,6 @@
     </div>
 
 
-    <div class="flash-container">
-        <img src="img/Flashs/Skull Chardon.jpg" alt="Skull Chardon">
-    </div>
 
 
     <?php

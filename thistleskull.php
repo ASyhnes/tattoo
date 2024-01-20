@@ -38,7 +38,11 @@
             <p>A venir: slide variation pri en fonction de la taille</p>
             <div class="slidecontainer">
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                <p>Taille : <span id="demo"></span></p>
+                <p>Taille : <span id="demopop"></span></p>
+                <p>Hauteur : <span id="hauteur"></span> cm</p>
+                <p>Prix : <span id="prix"></span> €</p>
+                
+                
             </div>
             <p>Note: prvoir une section "Déja pris par X....."</P>
         </div>

@@ -31,7 +31,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#" class="desktop-item">photo</a>
+                <a href="#photos" class="desktop-item">photo</a>
                 <input type="checkbox" id="showMega">
                 <label for="showMega" class="mobile-item">...</label>
                 <div class="mega-box">

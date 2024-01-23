@@ -37,9 +37,9 @@
             <br><br>
             <p>A venir: slide variation pri en fonction de la taille</p>
             <div class="slidecontainer">
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                <p>Taille : <span id="demopop"></span></p>
-                <p>Hauteur : <span id="hauteur"></span> cm</p>
+                <input type="range" min="15" max="30" value="22" class="slider" id="myRange">
+                <p>Largeur : <span id="demopop"></span>cm</p>
+                <p>Hauteur : <span id="hauteur" value="10"></span> cm</p>
                 <p>Prix : <span id="prix"></span> €</p>
                 
                 

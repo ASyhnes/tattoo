@@ -19,12 +19,12 @@
                   <li><a href="#">gravure sur bois</a></li>
                   <li><a href="#">...</a></li>
                 </ul>
-              <li>
-                <a href="#" class="desktop-item">RDV</a>
+                <li>
+                <a href="#" class="desktop-item">Contact</a>
                 <input type="checkbox" id="showDrop">
                 <label for="showDrop" class="mobile-item">Dropdown Menu</label>
                 <ul class="drop-menu">
-                  <li><a href="#">...</a></li>  
+                  <li><a href="submitproject.php">Proposez votre projet</a></li>  
                   <li><a href="#">...</a></li>
                   <li><a href="#">...</a></li>
                   <li><a href="#">...</a></li>

@@ -6,10 +6,11 @@
 
 .dexcontainer {
   z-index: 98;
-background-color: #ffffff;
+  background-color: #ffffffa1;
+  backdrop-filter: blur(1px);
   padding-top: 40px;
   padding-bottom: 40px;
-  box-shadow: 0px -50px 40px rgb(255, 255, 255), 0px 50px 40px rgb(255, 255, 255) ;
+  box-shadow: 0px -50px 40px 20px #ffffffa1, 0px 50px 40px #ffffffa1 ;
 }
 
 .dex {

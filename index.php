@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="bouton.css">
     <link rel="stylesheet" href="carroussel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+
 </head>
 <body>
    
@@ -25,24 +28,21 @@
     <div class="lore-container">
      
       <div class="lore">
-        <h1>Tatouage, Illustration</h1>
-        
-    
+        <div class="lore-header">
+            <img src="Icones/portrait.png" alt="Portrait" class="lore-image">
+            <h1 class="lore-title">Tatouage, Illustration</h1>
+        </div>
         <br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.             <img src="Icones/portrait.png" alt="Thistle "><br>
-        Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
-        quos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
-        Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
-        uos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
-        Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
-        quos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
-        Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
-        quos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
-        <br>
-        <br>
+        <div class="lore-content">
+          Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
+          quos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+          Perferendis quis dolorum eaque fugiat impedit molestiae dolore quisquam sunt quo exercitationem <br>
+          uos eum excepturi optio, omnis esse quam laboriosam? Velit, suscipit!<br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+       
+        </div>
+       
 
       </div>
     </div>

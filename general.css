@@ -15,39 +15,72 @@ body {
 
 .lore-container {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end; /* Aligner .lore à la fin (à droite) */
+    width: 100%; /* Assure que le container prend toute la largeur */
 }
 
 .lore {
-    margin-top: 10%;
-    margin-bottom: 20%;
-    padding: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: rgba(134, 134, 134, 0.137);
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding: 30px;
+    background-color: rgba(238, 238, 238, 0.438);
     backdrop-filter: blur(1px);
-    width: 50%;
+    width: 100%; /* .lore prend toute la largeur */
     border: 2px solid transparent;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; /* Aligner le contenu de .lore à droite */
 }
 
 .lore::before {
     content: '';
     position: absolute;
-    top: -2px; /* La taille de la bordure */
-    left: -2px; /* La taille de la bordure */
-    right: -2px; /* La taille de la bordure */
-    bottom: -2px; /* La taille de la bordure */
-    border: 4px solid black;
+    top: -2px; 
+    left: -2px;
+    right: -2px; 
+    bottom: -2px; 
+    border: 4px solid rgb(255, 255, 255);
     border-right: none;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    filter: blur(2px); /* Ajuste le niveau de flou ici */
-    /* Créer un effet de flou pixelisé */
+    border-left: none;
+    filter: blur(2px); 
     z-index: -1;
 }
+
+.lore-header {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; /* Aligner l'image et le titre à droite */
+    width: fit-content; /* Ajuste la largeur au contenu */
+    margin-left: auto; /* Pousse le contenu vers la droite */
+}
+.lore-content {
+    font-size: 1rem;
+    text-align: justify; /* Justifier le texte */
+    width: fit-content; /* Ajuste la largeur au contenu */
+    margin-left: auto; /* Pousse le contenu vers la droite */
+}
+
+.lore-image {
+    max-width: 200px;
+    margin-left: 20px; /* Espace à gauche de l'image */
+}
+
+.lore-title {
+    font-size: 2vw; /* Adapte la taille du titre à la largeur de l'écran */
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: right; /* Aligner le titre à droite */
+    /* Ajoute une taille minimale et maximale pour garantir la lisibilité */
+    min-font-size: 18px; /* Taille minimale pour les petits écrans */
+    max-font-size: 36px; /* Taille maximale pour les grands écrans */
+}
+
+
 
 
 .event-container {

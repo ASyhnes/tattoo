@@ -17,16 +17,15 @@
                   <li><a href="#">Rubrique<br>à venir<br>...</a></li>  
                 </ul>
                 <li>
-                <a href="#" class="desktop-item">Contact</a>
+                <a href="#" class="desktop-item">InkMe</a>
                 <input type="checkbox" id="showDrop">
                 <label for="showDrop" class="mobile-item">Dropdown Menu</label>
                 <ul class="drop-menu">
-                  <li><a href="submitproject.php">Proposez votre projet</a></li>  
-                  <li><a href="#">...</a></li>
-                  <li><a href="#">...</a></li>
-                  <li><a href="#">...</a></li>
+                  <li><a href="submitproject.php">Vous avez un projet?</a></li>  
+                  <li><a href="#flashs">Flashs</a></li>
                 </ul>
               </li>
+              <!--si tu veux une grosse box lors du déroulé
               <li>
                 <a href="#photos" class="desktop-item">photo</a>
                 <input type="checkbox" id="showMega">
@@ -65,7 +64,8 @@
                     </div>
                   </div>
                 </div>
-              </li>
+              </li>-->
+              <li><a href="#photos">Photo</a></li>
               <li><a href="#">News</a></li>
             </ul>
             <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>

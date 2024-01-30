@@ -14,10 +14,7 @@
                 <input type="checkbox" id="showDrop">
                 <label for="showDrop" class="mobile-item">Dropdown Menu</label>
                 <ul class="drop-menu">
-                  <li><a href="#">Vetements</a></li>  
-                  <li><a href="#">Illustration</a></li>
-                  <li><a href="#">gravure sur bois</a></li>
-                  <li><a href="#">...</a></li>
+                  <li><a href="#">Rubrique<br>à venir<br>...</a></li>  
                 </ul>
                 <li>
                 <a href="#" class="desktop-item">Contact</a>

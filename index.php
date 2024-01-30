@@ -88,10 +88,12 @@
                     </div>
                 </div>
                 <div>
-                    <div class="content">
+                <a href="photos.php" class="content-link">
+                    <div class="content" >
                     <h2>Plus de photo...</h2>
                     <span>Clic for more</span>
                     </div>
+                </a>
                 </div>
                 <div>
                     <div class="content">
@@ -136,7 +138,7 @@
         
         
     </div>
-
+    <script src="carousel.js"></script>
 </body>
 
 <?php

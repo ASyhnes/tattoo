@@ -15,9 +15,8 @@ body {
 
 .lore-container {
     display: flex;
-    justify-content: flex-end; /* Aligner .lore à la fin (à droite) */
-    width: 100%; /* Assure que le container prend toute la largeur */
-}
+    justify-content: flex-end; 
+    width: 100%; 
 
 .lore {
     margin-top: 8%;
@@ -25,14 +24,14 @@ body {
     padding: 30px;
     background-color: rgba(238, 238, 238, 0.438);
     backdrop-filter: blur(1px);
-    width: 100%; /* .lore prend toute la largeur */
+    width: 100%; 
     border: 2px solid transparent;
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
     display: flex; 
     flex-direction: column; 
-    align-items: flex-end; /* Aligner le contenu de .lore à droite */
+    align-items: flex-end; 
 }
 
 .lore::before {
@@ -52,32 +51,32 @@ body {
 .lore-header {
     display: flex;
     align-items: center; 
-    justify-content: flex-end; /* Aligner l'image et le titre à droite */
-    width: fit-content; /* Ajuste la largeur au contenu */
-    margin-left: auto; /* Pousse le contenu vers la droite */
+    justify-content: flex-end; 
+    width: fit-content; 
+    margin-left: auto; 
 }
 .lore-content {
     font-size: 1rem;
-    text-align: justify; /* Justifier le texte */
-    width: fit-content; /* Ajuste la largeur au contenu */
-    margin-left: auto; /* Pousse le contenu vers la droite */
+    text-align: justify;
+    width: fit-content; 
+    margin-left: auto; 
 }
 
 .lore-image {
     max-width: 200px;
-    margin-left: 20px; /* Espace à gauche de l'image */
+    margin-left: 20px; 
 }
 
 .lore-title {
-    font-size: 2vw; /* Adapte la taille du titre à la largeur de l'écran */
+    font-size: 2vw; 
     margin: 0; 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: xx-large;
-    text-align: right; /* Aligner le titre à droite */
-    /* Ajoute une taille minimale et maximale pour garantir la lisibilité */
-    min-font-size: 18px; /* Taille minimale pour les petits écrans */
-    max-font-size: 36px; /* Taille maximale pour les grands écrans */
+    text-align: right; 
+    
+    min-font-size: 18px; 
+    max-font-size: 36px; 
 }
 
 

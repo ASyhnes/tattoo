@@ -55,7 +55,7 @@
     <div class="dexcontainer">
         <div class="dex">
                 <!-- More cards following the same pattern -->
-                <div class="card"><a href="thistleskull.php"><img src="img/Flashs/Skull Chardon.jpg" alt="Thistle Skull"></a><p>Thistle Skull</p><span class="undispo"><h3>unavailable</h3></span>but Clic for More</div>
+                <div class="card"><a href="pageflash/thistleskull.php"><img src="img/Flashs/Skull Chardon.jpg" alt="Thistle Skull"></a><p>Thistle Skull</p><span class="undispo"><h3>unavailable</h3></span>but Clic for More</div>
                 <div class="card2"><a href="thebridge.php"><img src="img/Flashs/B_N Bridge.jpg" alt="The Bridge"></a><p>The Bridge</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
                 <div class="card2"><a href="freedm_deamon.php"><img src="img/Flashs/B_N Demon of freedom.jpg" alt="Freedom Demon"></a><p>Freedom Demon</p><span class="dispo"><h3>available</h3></span>Clic for More</div>
                 <div class="card2"><a href="secret.php"><img src="img/Flashs/B_N secret of life.jpg" alt="Secret of life"></a><p>Secret of life</p><span class="dispo">available</span>Clic for More</div>

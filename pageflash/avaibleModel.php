@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Thistleskull</title>
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="bouton.css">
-    <link rel="stylesheet" href="tattoopresentation.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <link rel="stylesheet" href="../bouton.css">
+    <link rel="stylesheet" href="../tattoopresentation.css">
 </head>
 
 <body>
         
 
         <?php
-        require_once(__DIR__ . '/navbar.php');
+        require_once(__DIR__ . '/../navbar.php');
         ?>
 
     <div class="flash-box">
-        <img src="img/Flashs/Skull Chardon.jpg" alt="Image"/>
+        <img src="../img/Flashs/Skull Chardon.jpg" alt="DiestelSkull"/>
     </div>
 
         <div class="container-infobox">
@@ -52,8 +52,8 @@
 
 
         <?php
-        require_once(__DIR__ . '/generalfooter.php');
+        require_once(__DIR__ . '/../generalfooter.php');
         ?>
-    <script src="slider.js"></script>
+    <script src="../slider.js"></script>
 </body>
 </html>

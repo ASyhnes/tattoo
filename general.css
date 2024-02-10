@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: flex-end; 
     width: 100%; 
+}
 
 .lore {
     margin-top: 8%;
@@ -89,9 +90,9 @@ body {
 
 
 .event {
-    margin: 10%;
-    padding: none;
-    background-color: rgba(51, 28, 28, 0.74);
+    padding: 5%;
+    padding-bottom: 200px;
+    background-color: rgba(66, 60, 60, 0.596);
     backdrop-filter: blur(1px);
     width: 100%;
 }
@@ -119,3 +120,4 @@ footer {
     backdrop-filter: blur(1px);
     width: 100%;
 }
+

@@ -13,7 +13,7 @@ Ce projet a pour but de développer un site de booking spécifiquement conçu po
 
 - **Planification de projets de tatouage** : Les utilisateurs peuvent facilement planifier leurs sessions de tatouage en choisissant le tatoueur, le style de tatouage, et en indiquant leurs disponibilités.
 - **Devis automatisé** : À partir des informations fournies par l'utilisateur, le système génère automatiquement un devis, offrant ainsi une estimation rapide et précise du coût du projet de tatouage.
-- **Gestion de la clientèle en BDD** : Le système intègre un backend robuste pour la gestion des informations clients, permettant un suivi efficace et sécurisé de chaque projet de tatouage.
+- **Gestion de la clientèle en BDD** : Le système intègrera un backend robuste pour la gestion des informations clients, permettant un suivi efficace et sécurisé de chaque projet de tatouage.
 
 ## Technologies utilisées ou qui seront utilisé à l'avenir
 
